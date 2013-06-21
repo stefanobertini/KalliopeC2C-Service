@@ -26,7 +26,7 @@ SERVER=http://192.168.43.104<br>
 USERNAME=20<br>
 PASSWORD=165c3277d601bc93aa053489b12f90cd<br>
 TIMEOUT=5<br>
-STRIPCHARS=("+39" "[ -]") <br>
+STRIPCHARS=("+39" "[ -//]") <br>
 (Removes the Italian country code prefix, spaces and - chars)
 
 Then, to use the plugin, just:<br>
