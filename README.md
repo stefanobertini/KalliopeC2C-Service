@@ -14,7 +14,12 @@ SERVER=The http prefix url for your calliope<br>
 USERNAME=Your phone's username<br>
 PASSWORD=Your phone's password MD5 encoded<br>
 TIMEOUT=The connection timeout in seconds<br>
-STRIPCHARS=A regular expression array of bad characters to strip from phone numbers
+STRIPCHARS=A regular expression array of bad characters to strip from phone numbers<br>
+<br>
+To create the MD5 encoded password you can type<br>
+echo -n 'yourpasswordhere' |  md5<br>
+in a shell<br>
+<br>
 
 Example<br>
 SERVER=http://192.168.43.104<br>
